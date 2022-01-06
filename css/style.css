@@ -116,12 +116,14 @@ table {
 
 /* estilo novo */
 #colluns {
-  background-color: chartreuse;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-around;
 }
 
 .collun {
+  display: flex;
+  flex-direction: column;
   height: 538px;
   left: 50px;
   top: 226px;
@@ -149,6 +151,7 @@ table {
   background: #8c48a3;
 }
 h1 {
+  margin-top: 30px;
   text-align: center;
   color: #ffffff;
 }
@@ -159,10 +162,12 @@ h2 {
   font-weight: bold;
   font-size: 24px;
   line-height: 35px;
+  margin-top: 30px;
 
   color: #ffffff;
 }
 h3 {
+  margin-top: 15px;
   text-align: center;
   font-family: Heebo;
   font-style: normal;
@@ -212,6 +217,7 @@ h3 {
 main {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 footer {
   width: 376px;
