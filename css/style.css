@@ -199,8 +199,16 @@ h3 {
   margin-left: 20px;
   width: 332px;
 }
-
+.dragging {
+  cursor: move;
+  opacity: 0.3;
+}
+.drope {
+  height: 100%;
+}
 .card {
+  cursor: move;
+
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -243,9 +251,6 @@ input {
 .plus {
   width: 53px;
   height: 42px;
-  left: 340px;
-  top: 695px;
-
   background: #8c48a3;
   border-radius: 10px;
   border: none;
